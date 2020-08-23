@@ -1,0 +1,23 @@
+{
+  "name": "node-project",
+  "version": "1.0.0",
+  "description": "Node JS. Make application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "node.js"
+  ],
+  "author": "Dmytro Gongalskyy <dimagong@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
